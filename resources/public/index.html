@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head><title>Hello</title></head>
+  <body>
+    <h1>Hello world</h1>
+    <random-color>
+      <h2>
+        This
+        is
+        in
+        <random-color>a random color</random-color>
+      </h2>
+    </random-color>
+    <script type="text/javascript">
+      (function(node) { while (node.hasChildNodes()) node.removeChild(node.lastChild) })(document.body);
+    </script>
+    <script type="text/javascript">
+      var CLOSURE_NO_DEPS = true;
+    </script>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript">
+      hello_hoplon.index.hoploninit();
+    </script>
+  </body>
+</html>
